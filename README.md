@@ -44,3 +44,4 @@ The game features a simple and clean design, focusing on easy navigation and smo
 
 
 ## Demo
+[![Demo Video](https://img.youtube.com/vi/G3xz25_A5QQ/0.jpg)](https://www.youtube.com/watch?v=G3xz25_A5QQ)
