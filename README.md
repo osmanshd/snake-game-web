@@ -20,6 +20,11 @@ A simple and fun **Snake** game built using HTML, CSS, and JavaScript. The game 
 
 ## Design
 The game features a simple and clean design, focusing on easy navigation and smooth gameplay. The visuals are minimalistic, providing an engaging experience without distractions. 
+<p align="center">
+  <img src=https://github.com/user-attachments/assets/3182b43c-92be-4536-ad6e-a457e92f811c align="left" width=320 height=320> 
+  <img src=https://github.com/user-attachments/assets/5cd2f3ed-8b27-4318-8935-a222d682f376 width=320 height=320> 
+  <img src=https://github.com/user-attachments/assets/b5908914-ef41-454b-a53b-f8a2e3bb03a4 align="right" width=320 height=320>
+</p>
 
 ## Technologies Used
 > HTML for the game structure
