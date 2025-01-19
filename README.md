@@ -8,7 +8,7 @@ A simple and fun **Snake** game built using HTML, CSS, and JavaScript. The game 
 + [Design](#design)
 + [Technologies Used](#technologies-used)
 + [Installation](#installation)
-+ [Deployed Game](#deployed-game)
++ [Play the Game](#play-the-game)
 + [Demo](#demo)
   
 ## Features
@@ -40,8 +40,11 @@ The game features a simple and clean design, focusing on easy navigation and smo
 3. Open the `index.html` file in your browser
 4. Start playing the game!
 
-## Deployed Game
+## Play the Game
+Check out the snake game hosted on Netlify:
+[Play the Game](https://snakegame-web.netlify.app)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/014ba00c-168b-468c-bd40-b0352a7cdfad/deploy-status)](https://app.netlify.com/sites/snakegame-web/deploys)
 
 ## Demo
 [![Demo Video](https://img.youtube.com/vi/G3xz25_A5QQ/0.jpg)](https://www.youtube.com/watch?v=G3xz25_A5QQ)
