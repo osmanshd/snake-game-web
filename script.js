@@ -116,19 +116,17 @@ function handleKeyPress(event) {
         startGame();
     }
     else {
-        switch(event.key) {
-            case 'ArrowUp':
-                direction = 'up';
-                break;
-            case 'ArrowDown':
-                direction = 'down';
-                break;
-            case 'ArrowLeft':
-                direction = 'left';
-                break;
-            case 'ArrowRight':
-                direction = 'right';
-                break;
+        if(event.key === 'ArrowUp' || event.key === 'w') {
+            direction = 'up';
+        }
+        else if(event.key === 'ArrowDown' || event.key === 's') {
+            direction = 'down';
+        }
+        else if(event.key === 'ArrowLeft' || event.key === 'a') {
+            direction = 'left';
+        }
+        else if(event.key === 'ArrowRight' || event.key === 'd') {
+            direction = 'right';
         }
     }
 }
