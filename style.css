@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Arsenal SC", serif;
+}
+
+body,
+.snake {
+    background-color: #414141;
+}
+
+#game-board {
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin: 5px;
+}
+
+.game-border-1 {
+    border: #7d4a42 solid 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #7d4a42;
+}
+
+.game-border-2 {
+    border: #d0bfa1 solid 8px;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 10px #d0bfa1;
+}
+
+.game-border-3 {
+    border: #b78a6e solid 30px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 5px #b78a6e;
+}
+
+#instruction-text {
+    position: absolute;
+    top: 60%;
+    color: #2c2c2c;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+    margin: 0;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+#score {
+    color: #d0bfa1;
+}
+
+#score, 
+#highScore {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+#highScore {
+    color: #e6cfc4;
+    display: none;
+}
+
+.game-border-3,
+#logo {
+    background-color: #b59d8b;
+}
+
+.snake {
+    border: #6a4e4a 1px dotted;
+}
+
+.food {
+    background-color: #dedede;
+    border: #9f9f9f 5px solid;
+}
+
+#logo {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 28%;
+}
